@@ -1,55 +1,78 @@
-@media screen and (max-width:800px)
-{
-    .header__inner  {
-        flex-direction: column;
-    }
-    .header__logo{
-        margin-bottom: 15px;
-    }
-    li a{
-        margin: 0 15px;
-        font-size: 17px;
+@media screen and (max-width: 800px) {
+  .header__inner {
+    flex-direction: column;
+  }
+  .header__logo {
+    margin-bottom: 15px;
+  }
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  li a {
+    margin: 0 10px;
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+  }
+  .header__cart {
+    display: none;
+  }
+  /*WELCOME*/
+  .welcome__image {
+    display: none;
+  }
+  .welcome {
+    margin-top: 50px;
+  }
+  .welcome__content {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
 
-    }
-    .header__cart{
-        display: none;
-    }
-    /*WELCOME*/
-    .welcome__image{
-        display: none;
-    }
-    .welcome__content{
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-
-    /*FEATURED*/
-    .featured__items{
-        flex-direction: column;
-    }
-    .person__inner{
-        flex-direction: column;
-        padding: 10px 0;
-    }
-    .person__image{
-        display: none;
-    }
-    .person__content{
-        width: 100%;
-    }
-
-    /**/
-    .workshop__items{
-        flex-direction: column;
-    }
-    .workshop__item{
-        margin: 15px 25px;
-    }
-    .recent__items{
-        flex-direction: column;
-    }
-    .recent__item{
-        margin: 15px 25px;
-    }
+  /*FEATURED*/
+  .featured__items {
+    flex-direction: column;
+  }
+  .person__inner {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  .person__image {
+    display: none;
+  }
+  .person__content {
+    width: 100%;
+  }
+  /*PERSON*/
+  .person__tittle {
+    font-size: 34px;
+  }
+  .person {
+    padding-top: 50px;
+  }
+  .person__content {
+    text-align: center;
+    padding-left: 0;
+  }
+  /**/
+  .workshop__items {
+    flex-direction: column;
+  }
+  .workshop__item {
+    margin: 15px 25px;
+  }
+  .workshop_discr {
+    margin-bottom: 10px;
+  }
+  .recent__items {
+    flex-direction: column;
+  }
+  .recent__item {
+    margin: 15px 25px;
+  }
+  .email__input button {
+    margin-top: 25px;
+  }
 }
